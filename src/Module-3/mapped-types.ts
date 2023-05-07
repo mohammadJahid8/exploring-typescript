@@ -28,6 +28,8 @@ const ObjDemo: GenericArea<ObjDemoType> = {
 // ObjDemo.height = "5";
 
 // T hocche kon data type array
+// index hocche array er index
+// key hocche obj er property
 
 function getArrayItem<T, K extends keyof T>(
   arr: T[],
