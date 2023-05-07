@@ -5,7 +5,7 @@ type Volume = {
 };
 
 type Area = {
-  [key in keyof Volume]: Volume[key];
+  [key in keyof Volume]: string;
 };
 
 type GenericArea<T> = {
